@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Open Cart Login">
+
+    <test name="Login Test InValid Chrome">
+        <parameter name="Browser" value="chrome"> </parameter>
+        <classes>
+            <class name="com.ExtentReports.DD_Login_Extent"> </class>
+        </classes>
+    </test>
+
+</suite>
